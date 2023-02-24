@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>App - estourando balões</title>
+        <meta charset="UTF-8">
+        <script>
+           function iniciaJogo(){
+                // localizando o nó (valor)
+                var nivel_jogo = document.getElementById('nivel_jogo').value;
+                // levando o usuário p/ próxima pag + valor escolhido
+                window.location.href = 'jogo.html?' + nivel_jogo;
+    
+            }
+
+        </script>
+    </head>
+    <body>
+        <p>
+            <label for="nivel">Nível do jogo: </label>
+            <select name="nivel" id="nivel_jogo">
+                <option value="1">Fácil</option>
+                <option value="2">Normal</option>
+                <option value="3">Difícil</option>
+            </select>
+        </p>
+        <img src="img/iniciar.png" alt="Iniciar Jogo" onclick="iniciaJogo()">
+    </body>
+</html>

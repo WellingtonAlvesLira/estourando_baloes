@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>App - estourando balões</title>
+    <meta charset="UTF-8">
+    <script src="js/jogo.js"></script>
+</head>
+
+<body onload="carregando_pagina()">
+    <div style="float: left; width: auto; height: 500px; background: #fff; border: 1px solid gray; margin-right: 5px; position: relative;">
+        <table>
+            <tr>
+                <td>
+                    <img src="img/balao_azul_grande.png" alt="">
+                </td>
+                <td>
+                    <span id="baloes_inteiros"></span>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <img src="img/balao_azul_grande_estourado.png" alt="">
+                </td>
+                <td>
+                    <span id="baloes_estourados"></span>
+                </td>
+            </tr>
+        </table>
+
+        <table style="width: 140px; height: 132px;">
+            <tr>
+                <td style="background-image: url(img/cronometro.png); text-align: center;">
+                    <span style="color: red; font-size: 30px;" id="tempo"></span>
+                </td>
+            </tr>
+        </table>
+        <table style="position: absolute; bottom: 10px; ">
+            <tr>
+                <td>
+                    <img style="width: 110px; cursor: pointer;" src="img/botao-voltar.jpg" alt="Voltar ao Início de Jogo" srcset="" onclick="voltar_pagina_anterior()">
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <div id="cenario"
+        style="float: left; width: 600px; height: 500px; background-image: url('img/cenario.png'); background-position: bottom;">
+
+    </div>
+
+
+</body>
+
+</html>
