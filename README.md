@@ -1,0 +1,2 @@
+No projeto estourando balões, tive a felicidade de pôr em prática o uso do DOCUMENT OBJECT MODEL, o famoso (DOM). Nele consegui compreender o quão poderoso é para usá-lo na manipulação dos elementos (nó)
+Nesta missão, foi utilizados alguns objetos do object document document.getElementById para obter o nó do elemento,window para ter acesso a página atual , fora outros métodos innerHTML para alterar ou obter o valor de algum elemento, createElement para criar um novo elemento na árvore e o appendChild para adicionar o novo elemento em um nó criado.
